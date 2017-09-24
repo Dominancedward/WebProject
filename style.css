@@ -1,0 +1,176 @@
+
+/* .preloader{
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background:black;
+	z-index:1000000;
+	
+}
+
+.loader{
+	width:75px;
+	height:75px;
+	border:10px solid white;
+	border-radius:50%;
+	border-top-color:blue;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	animation:2s spin infinite inear;
+}
+
+@-webkit-keyframes spin{
+	 from{
+		transform:translate(-50%,-50%) rotate(0deg);
+	}
+	 to{
+		transform:translate(-50%,-50%) rotate(360deg);
+	}
+} */
+
+@font-face{
+	font-family:cold;
+	src:url(cold.woff);
+}
+
+#m1{
+	font-family:cold;
+	color:#823005;
+	
+}
+body{
+	
+	background-image: url(images/b1.jpg);
+}
+
+video{
+	opacity:0.5;
+	transition:2.6s all;
+	margin:1px;
+	margin-top:3px;
+	margin-right:5px;
+	padding-right:510px;
+	
+}
+video:hover{
+	opacity:1;
+}
+#m1
+{
+
+	box-shadow:15px 15px 20px black;
+}
+
+
+
+
+#sc1
+{
+	position:absolute; left:710px; top:212px;
+	transition: 2.6s all;
+	opacity:0.3;
+	margin:3px;
+	padding:16px;
+	
+}
+#sc2{
+	position:absolute; left:890px; top:212px;
+	transition: 2.6s all;
+	opacity:0.3;
+	margin:3px;
+	padding:16px;
+}
+#sc3{
+	position:absolute; left:1070px; top:212px;
+	transition: 2.6s all;
+	opacity:0.3;
+	margin:3px;
+	padding:16px;
+	}
+#sc4{
+	position:absolute; left:710px; top:390px;
+	transition: 2.6s all;
+	opacity:0.3;
+	margin:3px;
+	padding:16px;
+	}
+#sc5{
+	position:absolute; left:890px; top:390px;
+	transition: 2.6s all;
+	opacity:0.3;
+	margin:3px;
+	padding:16px;
+	}
+#sc6{
+	position:absolute; left:1070px; top:390px;
+	transition: 2.6s all;
+	opacity:0.3;
+	margin:3px;
+	padding:16px;
+	}
+#sc7{
+	position:absolute; left:710px; top:568px;
+	transition: 2.6s all;
+	opacity:0.3;
+	margin:3px;
+	padding:16px;
+	}
+#sc8{
+	position:absolute; left:890px; top:568px;
+	transition: 2.6s all;
+	opacity:0.3;
+	margin:3px;
+	padding:16px;
+	}
+#sc9{
+	position:absolute; left:1070px; top:568px;
+	transition: 2.6s all;
+	opacity:0.3;
+	margin:3px;
+	padding:16px;
+	}
+
+
+#sc1:hover
+{
+	opacity:1;	
+}
+#sc2:hover{
+	opacity:1;
+}
+
+#sc3:hover{
+	opacity:1;
+}
+#sc4:hover{
+	opacity:1;
+}
+#sc5:hover{
+	opacity:1;
+}
+#sc6:hover{
+	opacity:1;
+}
+#sc7:hover{
+	opacity:1;
+}
+#sc8:hover{
+	opacity:1;
+}
+#sc9:hover{
+	opacity:1;
+}
+#sc10:hover{
+	opacity:1;
+}
+.footer {
+	
+	color:white;
+	background-color:Blue;
+	border:1px solid Blue;
+	font-size:20px
+}
